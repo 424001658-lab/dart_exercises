@@ -1,0 +1,7 @@
+Customer: Jazy Anne Natan
+Is Member: true
+Items Purchased: 4
+Total Amount: ₱302.0
+Free Items Earned: 1
+Bonus Points: 1
+Is the total over 200? true
