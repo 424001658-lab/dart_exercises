@@ -1,1 +1,20 @@
+void main() {
+  String studentName = 'Jazy Anne Natan';
+  int quantity = 4;
+  double unitPrice = 75.50;
+  bool isMember = true;
 
+  double total = quantity * unitPrice;
+  int freeItems = quantity ~/ 3;
+  int bonusPoints = quantity % 3; 
+
+  bool isOver200 = total > 200;
+
+  print('Customer: $studentName');
+  print('Is Member: $isMember');
+  print('Items Purchased: $quantity');
+  print('Total Amount: ₱$total');
+  print('Free Items Earned: $freeItems');
+  print('Bonus Points: $bonusPoints');
+  print('Is the total over 200? $isOver200');
+}
